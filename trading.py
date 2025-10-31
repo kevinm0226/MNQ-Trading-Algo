@@ -236,7 +236,7 @@ def strategy(rest, bar):
 
     balance = rest.get_balance()
 
-    if balance <= 650:
+    if balance <= 1509:
         print("no soup for you.......")
         return None
 
