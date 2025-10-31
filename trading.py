@@ -275,7 +275,7 @@ def strategy(rest, bar):
         return None
 
     now = datetime.now(ZoneInfo("America/New_York"))
-    stop_dt = datetime(2025, 10, 30, 16, 0, tzinfo=ZoneInfo("America/New_York"))
+    stop_dt = datetime(2025, 10, 31, 16, 0, tzinfo=ZoneInfo("America/New_York"))
 
     if now >= stop_dt:
         print(
